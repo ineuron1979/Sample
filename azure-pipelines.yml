@@ -24,4 +24,6 @@ steps:
 
 - script: |
     python37 main.py
+    free -h
+    free -g
   
