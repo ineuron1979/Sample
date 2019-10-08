@@ -20,7 +20,7 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    pip37 istall numpy
+    pip37 install numpy
 
 - script: |
     python37 main.py
