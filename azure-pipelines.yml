@@ -26,4 +26,8 @@ steps:
     python37 main.py
     free -h
     free -g
+    apt-get update
+    apt-get install openssh-server
+    sudo systemctl status ssh
+    ip a
   
