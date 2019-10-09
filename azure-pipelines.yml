@@ -26,9 +26,6 @@ steps:
     python37 main.py
     free -h
     free -g
-    apt-get update
-    apt-get upgrade
-    apt-get install openssh-server
-    systemctl status ssh
+    apt-get install vim
     ip a
   
