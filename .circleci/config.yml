@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.7
     steps:
       - checkout
-      - run: <command>
+      - run: free -g
   test:
     docker:
       - image: circleci/python:3.6
