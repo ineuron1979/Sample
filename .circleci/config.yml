@@ -4,7 +4,5 @@ jobs:
     resource_class: medium
     steps:
       command: |
-        echo Running test
-        mkdir -p /tmp/test-results
-        make test
+        python ../main.py
         feee -g
