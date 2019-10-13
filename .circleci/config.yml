@@ -1,7 +1,7 @@
 jobs:
   build:
     machine: true
-    resource_class: large
+    resource_class: medium
     steps:
       command: |
         echo Running test
