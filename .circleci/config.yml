@@ -1,0 +1,10 @@
+jobs:
+  build:
+    machine: true
+    resource_class: large
+    steps:
+      command: |
+        echo Running test
+        mkdir -p /tmp/test-results
+        make test
+        feee -g
