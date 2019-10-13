@@ -23,6 +23,7 @@ steps:
     pip install numpy
     pip3 install awscli --upgrade --user
     aws s3 sync --no-sign-request s3://openneuro.org/ds001506/sub-01/ses-imagery01 ds001506-download/
+    cd ds001506-download && du -hs
 
 
 - script: |
@@ -30,5 +31,5 @@ steps:
     free -h
     free -g
     #apt-get install vim
-    ls -sh
+    df -h
   
