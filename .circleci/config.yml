@@ -6,7 +6,8 @@ jobs:
     steps:
       - checkout
       - run: pip3 install awscli --upgrade --user
-      - run: aws s3 sync --no-sign-request s3://openneuro.org/ds001506 ds001506-download/
+      #- run: aws s3 sync --no-sign-request s3://openneuro.org/ds001506 ds001506-download/
+      - run: ls -sh
   test:
     docker:
       - image: circleci/python:3.6
